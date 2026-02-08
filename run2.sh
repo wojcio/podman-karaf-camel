@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Run script for Apache Karaf with Camel 4.6.0
+# Run script for Apache Karaf with Camel 4.4.0
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -9,7 +9,7 @@ cd "$SCRIPT_DIR"
 # Disable external compose provider message
 export DOCKER_HOST="podman://"
 
-echo "Starting Karaf with Camel 4.6.0..."
+echo "Starting Karaf with Camel 4.4.0..."
 
 # 1. Build the image
 echo "Building Docker image..."

@@ -6,7 +6,7 @@ This project provides a ready-to-use Apache Karaf container with Apache Camel su
 
 - **Apache Karaf 4.4.6** - OSGi-based runtime environment
 - **OpenJDK 17 (Alpine)** - Lightweight Java runtime
-- **Apache Camel 4.1.0** - Integration features pre-configured (featuresBoot)
+- **Apache Camel 4.4.0** - Integration features pre-configured (featuresBoot)
 - **Web Console (Hawtio)** - Web-based management interface
 - **Linux Root SSH** - Full root access via port 22 (password: amiga1200)
 - **Karaf SSH** - Karaf console access via port 8101 (karaf/karaf)

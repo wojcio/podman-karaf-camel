@@ -2,15 +2,17 @@ FROM alpine:3.19
 
 # Environment variables
 ENV KARAF_VERSION=4.4.6
-ENV CAMEL_VERSION=4.1.0
+ENV CAMEL_VERSION=4.4.0
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
 # Install Java, required packages, SSH server, mc, and nano
 RUN apk add --no-cache curl bash tar gzip wget unzip openjdk17-jdk openssh mc nano
 
-# --- FIX: Persist JAVA_HOME for 'su -' login shells ---
-RUN echo "export JAVA_HOME=${JAVA_HOME}" >> /etc/profile
+# --- FIX: Persist JAVA_HOME, KARAF_HOME, and PATH for 'su -' login shells ---
+RUN echo "export JAVA_HOME=${JAVA_HOME}" >> /etc/profile && \
+    echo "export KARAF_HOME=${KARAF_HOME}" >> /etc/profile && \
+    echo "export PATH=${PATH}" >> /etc/profile
 # ------------------------------------------------------
 
 # Download and install Apache Karaf 
@@ -51,8 +53,8 @@ RUN cat > ${KARAF_HOME}/etc/org.apache.karaf.features.cfg << 'FEATURESCFG'
 featuresRepositories = \
     mvn:org.apache.karaf.features/standard/4.4.6/xml/features, \
     mvn:org.apache.karaf.features/enterprise/4.4.6/xml/features, \
-    mvn:org.apache.karaf.features/framework/4.4.6/xml/features, 
-    
+    mvn:org.apache.karaf.features/framework/4.4.6/xml/features, \
+    mvn:org.apache.camel.karaf/apache-camel/${CAMEL_VERSION}/xml/features
 
 featuresBoot = \
     instance, \
@@ -75,8 +77,7 @@ featuresBoot = \
     config, \
     kar, \
     webconsole, \
-    camel, \
-    hawtio
+    camel
 
 featuresBootAsynchronous=false
 autoRefresh=true
