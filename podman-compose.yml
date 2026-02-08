@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  karaf-camel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: karaf-camel
+    hostname: karaf-camel
+    ports:
+      - "10099:22"    # Host Port 10099 -> Container Port 22
+      - "8101:8101"
+      - "8181:8181"
+    volumes:
+       # Persistent storage for Karaf deploy directory
+      - type: bind
+        source: ./data/deploy
+        target: /opt/karaf/deploy
+      # Persistent storage for data
+      - type: bind
+        source: ./data/data
+        target: /opt/karaf/data
+      # Persistent storage for data
+      - type: bind
+        source: ./data/examples
+        target: /opt/karaf/examples
+    environment:
+      - JAVA_MAX_MEM=2G
+      - JAVA_MIN_MEM=512M
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8181/system/console"]
+      interval: 30s
+      timeout: 20s
+      retries: 5
+      start_period: 240s
+
+volumes:
+  karaf_deploy:
+    driver: local
+  karaf_data:
+    driver: local
+  karaf_examples:
+    driver: local
+  
+
+
+
+networks:
+  default:
+    name: karaf-network
