@@ -28,7 +28,10 @@ if ! podman network exists karaf-network; then
 fi
 
 # 4.1 Delete local directories
-
+echo "Deleting local directories: deploy, data, examples..."
+rm -rf "$SCRIPT_DIR/deploy"
+rm -rf "$SCRIPT_DIR/data"
+rm -rf "$SCRIPT_DIR/examples"
 
 
 # 4.2 Create local directories
