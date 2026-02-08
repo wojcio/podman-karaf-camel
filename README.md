@@ -216,3 +216,4 @@ Edit the configuration files in the mounted `karaf_data` volume or rebuild with 
 ### ToDO
 
 - Fix camel depedency in current presisent-storage branch
+- Fix hawtio to show on login  automaticly local console for OSGi bundles
