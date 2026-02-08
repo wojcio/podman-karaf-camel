@@ -9,7 +9,7 @@ cd "$SCRIPT_DIR"
 # Disable external compose provider message
 export DOCKER_HOST="podman://"
 
-echo "Starting Karaf with Camel 4.4.0..."
+echo "Starting Karaf with Camel 4.4.wha0..."
 
 # 1. Build the image
 echo "Building Docker image..."

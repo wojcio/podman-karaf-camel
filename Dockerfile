@@ -54,7 +54,8 @@ featuresRepositories = \
     mvn:org.apache.karaf.features/standard/4.4.6/xml/features, \
     mvn:org.apache.karaf.features/enterprise/4.4.6/xml/features, \
     mvn:org.apache.karaf.features/framework/4.4.6/xml/features, \
-    mvn:org.apache.camel.karaf/apache-camel/${CAMEL_VERSION}/xml/features
+    mvn:org.apache.camel.karaf/apache-camel/${CAMEL_VERSION}/xml/features, \
+    mvn:io.hawt/hawtio-karaf/2.17.7/xml/features
 
 featuresBoot = \
     instance, \
@@ -77,7 +78,8 @@ featuresBoot = \
     config, \
     kar, \
     webconsole, \
-    camel
+    camel, \
+    hawtio
 
 featuresBootAsynchronous=false
 autoRefresh=true
