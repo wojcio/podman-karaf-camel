@@ -211,3 +211,8 @@ karaf@root()> feature:install camel-jackson
 ### Modifying Configuration
 
 Edit the configuration files in the mounted `karaf_data` volume or rebuild with custom configurations.
+
+
+### ToDO
+
+- Fix camel depedency in current presisent-storage branch
