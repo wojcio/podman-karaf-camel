@@ -1,6 +1,6 @@
 59
-mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.instance/4.4.6
+mvn:org.apache.camel.karaf/camel-scheduler/4.10.7
 32
-30
-1770534945641
+50
+1770583078754
 0

@@ -1,6 +1,6 @@
 69
-mvn:org.eclipse.jetty/jetty-jmx/9.4.54.v20240208
+mvn:org.apache.camel.karaf/camel-xml-io/4.10.7
 32
-30
-1770534945682
+50
+1770583078825
 0

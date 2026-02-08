@@ -1,6 +1,6 @@
 32
-mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.4.6
+mvn:org.apache.camel.karaf/camel-cluster/4.10.7
 32
-30
-1770534945544
+50
+1770583078561
 0

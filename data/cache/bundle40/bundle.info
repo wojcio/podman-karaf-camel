@@ -1,6 +1,6 @@
 40
-mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.4.6
+mvn:org.apache.camel.karaf/camel-core-processor/4.10.7
 32
-30
-1770534945570
+50
+1770583078621
 0

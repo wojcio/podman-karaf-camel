@@ -1,6 +1,6 @@
 30
-mvn:org.apache.felix/org.apache.felix.webconsole.plugins.event/1.1.8
+mvn:org.apache.camel.karaf/camel-browse/4.10.7
 32
-30
-1770534945537
+50
+1770583078551
 0

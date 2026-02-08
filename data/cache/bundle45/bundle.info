@@ -1,6 +1,6 @@
 45
-mvn:org.apache.karaf.kar/org.apache.karaf.kar.core/4.4.6
+mvn:org.apache.camel.karaf/camel-direct/4.10.7
 32
-30
-1770534945593
+50
+1770583078654
 0

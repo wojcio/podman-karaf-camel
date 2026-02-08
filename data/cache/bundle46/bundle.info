@@ -1,6 +1,6 @@
 46
-mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.4.6
+mvn:org.apache.camel.karaf/camel-directvm/4.10.7
 32
-30
-1770534945596
+50
+1770583078661
 0

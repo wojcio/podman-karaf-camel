@@ -1,6 +1,6 @@
 41
-mvn:org.apache.karaf.instance/org.apache.karaf.instance.core/4.4.6
+mvn:org.apache.camel.karaf/camel-core-reifier/4.10.7
 32
-30
-1770534945576
+50
+1770583078628
 0

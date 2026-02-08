@@ -1,6 +1,6 @@
 61
-mvn:org.apache.sshd/sshd-scp/2.12.1
+mvn:org.apache.camel.karaf/camel-stub/4.10.7
 32
-30
-1770534945650
+50
+1770583078765
 0

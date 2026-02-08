@@ -1,6 +1,6 @@
 70
-mvn:org.eclipse.jetty/jetty-security/9.4.54.v20240208
+mvn:org.apache.camel.karaf/camel-xml-io-util/4.10.7
 32
-30
-1770534945686
+50
+1770583078833
 0

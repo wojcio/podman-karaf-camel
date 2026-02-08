@@ -1,6 +1,6 @@
 51
-mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.4.6
+mvn:org.apache.camel.karaf/camel-log/4.10.7
 32
-30
-1770534945613
+50
+1770583078702
 0

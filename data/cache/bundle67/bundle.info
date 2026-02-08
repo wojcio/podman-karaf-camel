@@ -1,6 +1,6 @@
 67
-mvn:org.eclipse.jetty/jetty-io/9.4.54.v20240208
+mvn:org.apache.camel.karaf/camel-validator/4.10.7
 32
-30
-1770534945675
+50
+1770583078812
 0

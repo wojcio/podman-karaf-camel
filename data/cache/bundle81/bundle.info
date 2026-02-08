@@ -1,6 +1,6 @@
 81
-mvn:org.ops4j.pax.web/pax-web-compatibility-el2/8.0.27
-2
+mvn:jakarta.websocket/jakarta.websocket-api/1.1.2
+32
 30
-1770534945732
+1770583078924
 0

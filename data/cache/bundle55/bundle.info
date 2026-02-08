@@ -1,6 +1,6 @@
 55
-mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/4.4.6
+mvn:org.apache.camel.karaf/camel-mock/4.10.7
 32
-30
-1770534945627
+50
+1770583078731
 0

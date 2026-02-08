@@ -1,6 +1,6 @@
 62
-mvn:org.apache.sshd/sshd-sftp/2.12.1
+mvn:org.apache.camel.karaf/camel-support/4.10.7
 32
-30
-1770534945653
+50
+1770583078780
 0

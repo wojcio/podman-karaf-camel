@@ -1,6 +1,6 @@
 71
-mvn:org.eclipse.jetty/jetty-server/9.4.54.v20240208
+mvn:org.apache.camel.karaf/camel-xml-jaxb/4.10.7
 32
-30
-1770534945690
+50
+1770583078842
 0

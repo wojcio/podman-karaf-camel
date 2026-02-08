@@ -1,6 +1,6 @@
 31
-mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.10
+mvn:org.apache.camel.karaf/camel-cloud/4.10.7
 32
-30
-1770534945540
+50
+1770583078556
 0

@@ -1,6 +1,6 @@
 85
-mvn:org.ops4j.pax.web/pax-web-jsp/8.0.27
-32
-30
-1770534945756
+mvn:org.apache.aries.blueprint/org.apache.aries.blueprint.core.compatibility/1.0.0
+2
+20
+1770583078947
 0

@@ -1,6 +1,6 @@
 47
-mvn:org.apache.karaf.management/org.apache.karaf.management.server/4.4.6
+mvn:org.apache.camel.karaf/camel-file/4.10.7
 32
-30
-1770534945600
+50
+1770583078669
 0

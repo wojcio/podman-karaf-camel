@@ -1,6 +1,6 @@
 63
-mvn:org.eclipse.jdt/ecj/3.26.0
+mvn:org.apache.camel.karaf/camel-timer/4.10.7
 32
-30
-1770534945657
+50
+1770583078789
 0

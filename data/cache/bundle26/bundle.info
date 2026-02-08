@@ -1,6 +1,6 @@
 26
-mvn:org.apache.aries.jmx/org.apache.aries.jmx.api/1.1.5
+mvn:org.apache.camel.karaf/camel-base/4.10.7
 32
-30
-1770534945521
+50
+1770583078527
 0

@@ -1,6 +1,6 @@
 43
-mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.4.6
+mvn:org.apache.camel.karaf/camel-dataformat/4.10.7
 32
-30
-1770534945585
+50
+1770583078642
 0

@@ -1,6 +1,6 @@
 52
-mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.4.6
+mvn:org.apache.camel.karaf/camel-main/4.10.7
 32
-30
-1770534945617
+50
+1770583078709
 0

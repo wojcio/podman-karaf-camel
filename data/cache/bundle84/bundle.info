@@ -1,6 +1,6 @@
 84
-mvn:org.ops4j.pax.web/pax-web-jetty/8.0.27
+mvn:org.apache.aries.blueprint/org.apache.aries.blueprint.core/1.10.3
 32
-30
-1770534945751
+20
+1770583078939
 0

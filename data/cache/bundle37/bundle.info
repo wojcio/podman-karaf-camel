@@ -1,6 +1,6 @@
 37
-mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.4.6
+mvn:org.apache.camel.karaf/camel-core-languages/4.10.7
 32
-30
-1770534945560
+50
+1770583078600
 0

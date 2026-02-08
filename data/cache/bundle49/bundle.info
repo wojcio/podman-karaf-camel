@@ -1,6 +1,6 @@
 49
-mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.4.6
+mvn:org.apache.camel.karaf/camel-karaf-shell/4.10.7
 32
-30
-1770534945606
+80
+1770583078688
 0

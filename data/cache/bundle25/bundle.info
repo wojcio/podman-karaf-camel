@@ -1,6 +1,6 @@
 25
-mvn:jakarta.websocket/jakarta.websocket-api/1.1.2
+mvn:org.apache.camel.karaf/camel-api/4.10.7
 32
-30
-1770534945518
+50
+1770583078521
 0

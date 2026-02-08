@@ -1,6 +1,6 @@
 58
-mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/4.4.6
+mvn:org.apache.camel.karaf/camel-saga/4.10.7
 32
-30
-1770534945638
+50
+1770583078748
 0

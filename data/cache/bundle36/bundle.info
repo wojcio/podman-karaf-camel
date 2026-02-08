@@ -1,6 +1,6 @@
 36
-mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.wrap/4.4.6
+mvn:org.apache.camel.karaf/camel-core-engine/4.10.7
 32
-24
-1770534945557
+50
+1770583078588
 0

@@ -1,6 +1,6 @@
 68
-mvn:org.eclipse.jetty/jetty-jaas/9.4.54.v20240208
+mvn:org.apache.camel.karaf/camel-vm/4.10.7
 32
-30
-1770534945679
+50
+1770583078819
 0
